@@ -1,0 +1,55 @@
+
+//info-text-title FONT
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap')
+
+
+// CLASSES
+.formulario
+    background-color: $color-theme-secondary
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    margin: 0
+@mixin info-text-title
+    font-family: 'IBM Plex Sans', sans-serif
+    text-transform: uppercase
+    font-weight: 600
+.navbar-social-info
+    padding-top: 50px
+    .fa, .fab, .fas
+        color: #ffffff
+        font-size: 40px
+
+.text-image-contact
+    font-size: 30px
+    text-shadow: 2px 2px #000000
+
+// -------------- Media Queries ----------------------//
+
+// XS devices (portrail phones, max 575px)
+@media screen and (max-width: 575px)
+    .info-text-title
+        @include info-text-title
+        font-size: 18px
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px)
+
+
+// Medium devices (tablets, 768px and up)
+@media screen and (max-width: 768px)
+    .info-text-title
+        @include info-text-title
+        font-size: 30px
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+    .info-text-title
+        @include info-text-title
+        font-size: 30px
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+
+

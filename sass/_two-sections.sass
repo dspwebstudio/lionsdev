@@ -1,0 +1,73 @@
+//SKEW.sass
+
+//variables
+$skew-section-height: 300px
+
+
+//---------------- SKEW --------------------//  
+.skew-section-1
+    width: 100%
+    height: $skew-section-height
+    background-color: $skew-color-section-1
+    
+// imagen left text right
+.skew-section-2
+    width: 100%
+    height: $skew-section-height
+    background-color: $skew-color-section-2
+    overflow-x: hidden
+    overflow-y: scroll
+.row-1
+    width: 100%
+    height: $skew-section-height
+.img-skew-left-1
+    width: 100%
+    height: $skew-section-height
+    float: left
+    
+.img-skew-left-2
+    width: 100%
+    height: $skew-section-height
+    float: left
+    overflow: hidden
+    background-img: url('../img/services/adult-banking-blonde.jpg')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+.skew-img-section
+    width: 50%
+    height: $skew-section-height
+    transform: skew(10deg)
+    -moz-transform: skew(10deg)
+    -webkit-transform: skew(10deg)
+    left: -100px
+.skew-description-right
+    padding-top: 30px
+    color: $skew-color-section-1-text
+
+
+// text left - img right
+.row-2
+    width: 100%
+    height: $skew-section-height
+.img-skew-right
+    width: 100%
+    height: $skew-section-height
+    float: right
+    transform: skew(0deg)
+.skew-img-section-right
+    width: 40%
+    height: $skew-section-height
+    right: -80px
+    transform: skew(-10deg)
+    -moz-transform: skew(-10deg)
+    -webkit-transform: skew(-10deg)
+.skew-description-left
+    width: 100%
+    height: $skew-section-height
+    padding-top: 30px
+    color: $skew-color-section-2-text
+    background-color: $skew-color-section-2
+    left: 60px
+
+
